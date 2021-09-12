@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 2.781 sec <<< FAILURE! - in TestSuite
+setup(ClearTripTests.FlightsTest)  Time elapsed: 2.713 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: java/sql/Time
+	at ClearTripTests.FlightsTest.setup(FlightsTest.java:33)
+Caused by: java.lang.ClassNotFoundException: java.sql.Time
+	at ClearTripTests.FlightsTest.setup(FlightsTest.java:33)
+
